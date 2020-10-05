@@ -76,95 +76,95 @@ bootstrapのテスト
 ヘッダーのテスト
   ログインしていない場合
     ヘッダーの表示を確認
-[31m      タイトルが表示される (FAILED - 39)[0m
-[31m      Homeリンクが表示される (FAILED - 40)[0m
-[31m      Aboutリンクが表示される (FAILED - 41)[0m
-[31m      Sign upリンクが表示される (FAILED - 42)[0m
-[31m      loginリンクが表示される (FAILED - 43)[0m
+[32m      タイトルが表示される[0m
+[31m      Homeリンクが表示される (FAILED - 39)[0m
+[31m      Aboutリンクが表示される (FAILED - 40)[0m
+[31m      Sign upリンクが表示される (FAILED - 41)[0m
+[31m      loginリンクが表示される (FAILED - 42)[0m
     ヘッダーのリンクを確認
 [32m      Home画面に遷移する[0m
-[31m      About画面に遷移する (FAILED - 44)[0m
-[31m      新規登録画面に遷移する (FAILED - 45)[0m
-[31m      ログイン画面に遷移する (FAILED - 46)[0m
+[31m      About画面に遷移する (FAILED - 43)[0m
+[31m      新規登録画面に遷移する (FAILED - 44)[0m
+[31m      ログイン画面に遷移する (FAILED - 45)[0m
   ログインしている場合
     ヘッダーの表示を確認
-[31m      タイトルが表示される (FAILED - 47)[0m
-[31m      Homeリンクが表示される (FAILED - 48)[0m
-[31m      Usersリンクが表示される (FAILED - 49)[0m
-[31m      Booksリンクが表示される (FAILED - 50)[0m
-[31m      logoutリンクが表示される (FAILED - 51)[0m
+[31m      タイトルが表示される (FAILED - 46)[0m
+[31m      Homeリンクが表示される (FAILED - 47)[0m
+[31m      Usersリンクが表示される (FAILED - 48)[0m
+[31m      Booksリンクが表示される (FAILED - 49)[0m
+[31m      logoutリンクが表示される (FAILED - 50)[0m
     ヘッダーのリンクを確認
-[31m      Home画面に遷移する (FAILED - 52)[0m
-[31m      Users画面に遷移する (FAILED - 53)[0m
-[31m      Books画面に遷移する (FAILED - 54)[0m
-[31m      logoutする (FAILED - 55)[0m
+[31m      Home画面に遷移する (FAILED - 51)[0m
+[31m      Users画面に遷移する (FAILED - 52)[0m
+[31m      Books画面に遷移する (FAILED - 53)[0m
+[31m      logoutする (FAILED - 54)[0m
 
 ユーザー権限のテスト
   ログインしていない場合
     投稿関連のURLにアクセス
-[31m      一覧画面に遷移できない (FAILED - 56)[0m
-[31m      編集画面に遷移できない (FAILED - 57)[0m
-[31m      詳細画面に遷移できない (FAILED - 58)[0m
+[31m      一覧画面に遷移できない (FAILED - 55)[0m
+[31m      編集画面に遷移できない (FAILED - 56)[0m
+[31m      詳細画面に遷移できない (FAILED - 57)[0m
   ログインしていない場合にユーザー関連のURLにアクセス
     ユーザー関連のURLにアクセス
-[31m      一覧画面に遷移できない (FAILED - 59)[0m
-[31m      編集画面に遷移できない (FAILED - 60)[0m
-[31m      詳細画面に遷移でない (FAILED - 61)[0m
+[31m      一覧画面に遷移できない (FAILED - 58)[0m
+[31m      編集画面に遷移できない (FAILED - 59)[0m
+[31m      詳細画面に遷移でない (FAILED - 60)[0m
 
 トップページのテスト
   ボディ部分のテスト
     表示の確認
-[31m      Log inリンクが表示される (FAILED - 62)[0m
+[31m      Log inリンクが表示される (FAILED - 61)[0m
 [32m      Sign Upリンクが表示される[0m
     ログインしている場合の挙動を確認
-[31m      Log inリンクをクリックしたらユーザー詳細画面へ遷移する (FAILED - 63)[0m
-[31m      Sign Upリンクをクリックしたらユーザー詳細画面に遷移する (FAILED - 64)[0m
+[31m      Log inリンクをクリックしたらユーザー詳細画面へ遷移する (FAILED - 62)[0m
+[31m      Sign Upリンクをクリックしたらユーザー詳細画面に遷移する (FAILED - 63)[0m
     ログインしていない場合の挙動を確認
-[31m      Log inリンクをクリックしたらログイン画面へ遷移する (FAILED - 65)[0m
-[31m      Sign Upリンクをクリックしたら新規登録画面に遷移する (FAILED - 66)[0m
+[31m      Log inリンクをクリックしたらログイン画面へ遷移する (FAILED - 64)[0m
+[32m      Sign Upリンクをクリックしたら新規登録画面に遷移する[0m
 
 ユーザー認証のテスト
   ユーザー新規登録
     新規登録画面に遷移
-[31m      新規登録に成功する (FAILED - 67)[0m
-[31m      新規登録に失敗する (FAILED - 68)[0m
+[31m      新規登録に成功する (FAILED - 65)[0m
+[31m      新規登録に失敗する (FAILED - 66)[0m
   ユーザーログイン
     ログイン画面に遷移
-[31m      ログインに成功する (FAILED - 69)[0m
-[31m      ログインに失敗する (FAILED - 70)[0m
+[31m      ログインに成功する (FAILED - 67)[0m
+[31m      ログインに失敗する (FAILED - 68)[0m
 
 ユーザーのテスト
   サイドバーのテスト
     表示の確認
-[31m      User infoと表示される (FAILED - 71)[0m
-[31m      画像が表示される (FAILED - 72)[0m
-[31m      名前が表示される (FAILED - 73)[0m
-[31m      自己紹介が表示される (FAILED - 74)[0m
-[31m      編集リンクが表示される (FAILED - 75)[0m
+[31m      User infoと表示される (FAILED - 69)[0m
+[31m      画像が表示される (FAILED - 70)[0m
+[31m      名前が表示される (FAILED - 71)[0m
+[31m      自己紹介が表示される (FAILED - 72)[0m
+[31m      編集リンクが表示される (FAILED - 73)[0m
   編集のテスト
     自分の編集画面への遷移
-[31m      遷移できる (FAILED - 76)[0m
+[31m      遷移できる (FAILED - 74)[0m
     他人の編集画面への遷移
-[31m      遷移できない (FAILED - 77)[0m
+[31m      遷移できない (FAILED - 75)[0m
     表示の確認
-[31m      User infoと表示される (FAILED - 78)[0m
-[31m      名前編集フォームに自分の名前が表示される (FAILED - 79)[0m
-[31m      画像編集フォームが表示される (FAILED - 80)[0m
-[31m      自己紹介編集フォームに自分の自己紹介が表示される (FAILED - 81)[0m
-[31m      編集に成功する (FAILED - 82)[0m
-[31m      編集に失敗する (FAILED - 83)[0m
+[31m      User infoと表示される (FAILED - 76)[0m
+[31m      名前編集フォームに自分の名前が表示される (FAILED - 77)[0m
+[31m      画像編集フォームが表示される (FAILED - 78)[0m
+[31m      自己紹介編集フォームに自分の自己紹介が表示される (FAILED - 79)[0m
+[31m      編集に成功する (FAILED - 80)[0m
+[31m      編集に失敗する (FAILED - 81)[0m
   一覧画面のテスト
     表示の確認
-[31m      Usersと表示される (FAILED - 84)[0m
-[31m      自分と他の人の画像が表示される (FAILED - 85)[0m
-[31m      自分と他の人の名前が表示される (FAILED - 86)[0m
-[31m      showリンクが表示される (FAILED - 87)[0m
+[31m      Usersと表示される (FAILED - 82)[0m
+[31m      自分と他の人の画像が表示される (FAILED - 83)[0m
+[31m      自分と他の人の名前が表示される (FAILED - 84)[0m
+[31m      showリンクが表示される (FAILED - 85)[0m
   詳細画面のテスト
     表示の確認
-[31m      Booksと表示される (FAILED - 88)[0m
-[31m      投稿一覧のユーザーの画像のリンク先が正しい (FAILED - 89)[0m
-[31m      投稿一覧のtitleのリンク先が正しい (FAILED - 90)[0m
-[31m      投稿一覧にopinionが表示される (FAILED - 91)[0m
+[31m      Booksと表示される (FAILED - 86)[0m
+[31m      投稿一覧のユーザーの画像のリンク先が正しい (FAILED - 87)[0m
+[31m      投稿一覧のtitleのリンク先が正しい (FAILED - 88)[0m
+[31m      投稿一覧にopinionが表示される (FAILED - 89)[0m
 
 Failures:
 
@@ -172,7 +172,7 @@ Failures:
      [31mFailure/Error: let(:user) { create(:user) }[0m
      [31m[0m
      [31mNoMethodError:[0m
-     [31m  undefined method `name=' for #<User:0x0000000005b1c2b8>[0m
+     [31m  undefined method `name=' for #<User:0x000000000579e438>[0m
      [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.1.0/lib/factory_bot/attribute_assigner.rb:16:in `public_send'[0m
      [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.1.0/lib/factory_bot/attribute_assigner.rb:16:in `block (2 levels) in object'[0m
      [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.1.0/lib/factory_bot/attribute_assigner.rb:15:in `each'[0m
@@ -192,7 +192,7 @@ Failures:
      [31mFailure/Error: let(:user) { create(:user) }[0m
      [31m[0m
      [31mNoMethodError:[0m
-     [31m  undefined method `name=' for #<User:0x0000000003bb6c98>[0m
+     [31m  undefined method `name=' for #<User:0x0000000006de1858>[0m
      [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.1.0/lib/factory_bot/attribute_assigner.rb:16:in `public_send'[0m
      [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.1.0/lib/factory_bot/attribute_assigner.rb:16:in `block (2 levels) in object'[0m
      [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.1.0/lib/factory_bot/attribute_assigner.rb:15:in `each'[0m
@@ -212,7 +212,7 @@ Failures:
      [31mFailure/Error: let(:user) { create(:user) }[0m
      [31m[0m
      [31mNoMethodError:[0m
-     [31m  undefined method `name=' for #<User:0x0000000005bd6870>[0m
+     [31m  undefined method `name=' for #<User:0x0000000006de45d0>[0m
      [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.1.0/lib/factory_bot/attribute_assigner.rb:16:in `public_send'[0m
      [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.1.0/lib/factory_bot/attribute_assigner.rb:16:in `block (2 levels) in object'[0m
      [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.1.0/lib/factory_bot/attribute_assigner.rb:15:in `each'[0m
@@ -232,7 +232,7 @@ Failures:
      [31mFailure/Error: let(:user) { build(:user) }[0m
      [31m[0m
      [31mNoMethodError:[0m
-     [31m  undefined method `name=' for #<User:0x0000000005d5d810>[0m
+     [31m  undefined method `name=' for #<User:0x0000000006e1c818>[0m
      [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.1.0/lib/factory_bot/attribute_assigner.rb:16:in `public_send'[0m
      [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.1.0/lib/factory_bot/attribute_assigner.rb:16:in `block (2 levels) in object'[0m
      [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.1.0/lib/factory_bot/attribute_assigner.rb:15:in `each'[0m
@@ -253,7 +253,7 @@ Failures:
      [31mFailure/Error: let(:user) { build(:user) }[0m
      [31m[0m
      [31mNoMethodError:[0m
-     [31m  undefined method `name=' for #<User:0x0000000005d76270>[0m
+     [31m  undefined method `name=' for #<User:0x0000000006e27650>[0m
      [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.1.0/lib/factory_bot/attribute_assigner.rb:16:in `public_send'[0m
      [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.1.0/lib/factory_bot/attribute_assigner.rb:16:in `block (2 levels) in object'[0m
      [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.1.0/lib/factory_bot/attribute_assigner.rb:15:in `each'[0m
@@ -274,7 +274,7 @@ Failures:
      [31mFailure/Error: let(:user) { build(:user) }[0m
      [31m[0m
      [31mNoMethodError:[0m
-     [31m  undefined method `name=' for #<User:0x0000000005eb2c10>[0m
+     [31m  undefined method `name=' for #<User:0x0000000006e2e4c8>[0m
      [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.1.0/lib/factory_bot/attribute_assigner.rb:16:in `public_send'[0m
      [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.1.0/lib/factory_bot/attribute_assigner.rb:16:in `block (2 levels) in object'[0m
      [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.1.0/lib/factory_bot/attribute_assigner.rb:15:in `each'[0m
@@ -295,7 +295,7 @@ Failures:
      [31mFailure/Error: let(:user) { build(:user) }[0m
      [31m[0m
      [31mNoMethodError:[0m
-     [31m  undefined method `name=' for #<User:0x0000000005efdd00>[0m
+     [31m  undefined method `name=' for #<User:0x0000000006e34a08>[0m
      [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.1.0/lib/factory_bot/attribute_assigner.rb:16:in `public_send'[0m
      [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.1.0/lib/factory_bot/attribute_assigner.rb:16:in `block (2 levels) in object'[0m
      [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.1.0/lib/factory_bot/attribute_assigner.rb:15:in `each'[0m
@@ -316,7 +316,7 @@ Failures:
      [31mFailure/Error: let!(:user2) { create(:user) }[0m
      [31m[0m
      [31mNoMethodError:[0m
-     [31m  undefined method `name=' for #<User:0x0000000005fb61c0>[0m
+     [31m  undefined method `name=' for #<User:0x0000000006e53c00>[0m
      [31m[0m
      [31m[0m
      [31m[0m
@@ -338,7 +338,7 @@ Failures:
      [31mFailure/Error: let!(:user2) { create(:user) }[0m
      [31m[0m
      [31mNoMethodError:[0m
-     [31m  undefined method `name=' for #<User:0x0000000006020160>[0m
+     [31m  undefined method `name=' for #<User:0x0000000006e5dd18>[0m
      [31m[0m
      [31m[0m
      [31m[0m
@@ -360,7 +360,7 @@ Failures:
       [31mFailure/Error: let!(:user2) { create(:user) }[0m
       [31m[0m
       [31mNoMethodError:[0m
-      [31m  undefined method `name=' for #<User:0x00000000061081b8>[0m
+      [31m  undefined method `name=' for #<User:0x0000000006e64078>[0m
       [31m[0m
       [31m[0m
       [31m[0m
@@ -382,7 +382,7 @@ Failures:
       [31mFailure/Error: let!(:user2) { create(:user) }[0m
       [31m[0m
       [31mNoMethodError:[0m
-      [31m  undefined method `name=' for #<User:0x000000000612e2c8>[0m
+      [31m  undefined method `name=' for #<User:0x0000000006e76278>[0m
       [31m[0m
       [31m[0m
       [31m[0m
@@ -404,7 +404,7 @@ Failures:
       [31mFailure/Error: let!(:user2) { create(:user) }[0m
       [31m[0m
       [31mNoMethodError:[0m
-      [31m  undefined method `name=' for #<User:0x0000000006149370>[0m
+      [31m  undefined method `name=' for #<User:0x0000000006e7c560>[0m
       [31m[0m
       [31m[0m
       [31m[0m
@@ -426,7 +426,7 @@ Failures:
       [31mFailure/Error: let!(:user2) { create(:user) }[0m
       [31m[0m
       [31mNoMethodError:[0m
-      [31m  undefined method `name=' for #<User:0x00000000061a3668>[0m
+      [31m  undefined method `name=' for #<User:0x0000000006e8e8a0>[0m
       [31m[0m
       [31m[0m
       [31m[0m
@@ -448,7 +448,7 @@ Failures:
       [31mFailure/Error: let!(:user2) { create(:user) }[0m
       [31m[0m
       [31mNoMethodError:[0m
-      [31m  undefined method `name=' for #<User:0x00000000061b9ee0>[0m
+      [31m  undefined method `name=' for #<User:0x0000000006e9f2e0>[0m
       [31m[0m
       [31m[0m
       [31m[0m
@@ -470,7 +470,7 @@ Failures:
       [31mFailure/Error: let!(:user2) { create(:user) }[0m
       [31m[0m
       [31mNoMethodError:[0m
-      [31m  undefined method `name=' for #<User:0x00000000061eb648>[0m
+      [31m  undefined method `name=' for #<User:0x0000000006ea48f8>[0m
       [31m[0m
       [31m[0m
       [31m[0m
@@ -492,7 +492,7 @@ Failures:
       [31mFailure/Error: let!(:user2) { create(:user) }[0m
       [31m[0m
       [31mNoMethodError:[0m
-      [31m  undefined method `name=' for #<User:0x00000000062de7d0>[0m
+      [31m  undefined method `name=' for #<User:0x0000000006eb9eb0>[0m
       [31m[0m
       [31m[0m
       [31m[0m
@@ -514,7 +514,7 @@ Failures:
       [31mFailure/Error: let!(:user2) { create(:user) }[0m
       [31m[0m
       [31mNoMethodError:[0m
-      [31m  undefined method `name=' for #<User:0x00000000062fea08>[0m
+      [31m  undefined method `name=' for #<User:0x0000000006ec01c0>[0m
       [31m[0m
       [31m[0m
       [31m[0m
@@ -536,7 +536,7 @@ Failures:
       [31mFailure/Error: let!(:user2) { create(:user) }[0m
       [31m[0m
       [31mNoMethodError:[0m
-      [31m  undefined method `name=' for #<User:0x0000000006319e70>[0m
+      [31m  undefined method `name=' for #<User:0x0000000006ed2500>[0m
       [31m[0m
       [31m[0m
       [31m[0m
@@ -558,7 +558,7 @@ Failures:
       [31mFailure/Error: let!(:user2) { create(:user) }[0m
       [31m[0m
       [31mNoMethodError:[0m
-      [31m  undefined method `name=' for #<User:0x000000000720cf40>[0m
+      [31m  undefined method `name=' for #<User:0x0000000006ed8770>[0m
       [31m[0m
       [31m[0m
       [31m[0m
@@ -580,7 +580,7 @@ Failures:
       [31mFailure/Error: let!(:user2) { create(:user) }[0m
       [31m[0m
       [31mNoMethodError:[0m
-      [31m  undefined method `name=' for #<User:0x00000000035737c8>[0m
+      [31m  undefined method `name=' for #<User:0x0000000006eea948>[0m
       [31m[0m
       [31m[0m
       [31m[0m
@@ -602,7 +602,7 @@ Failures:
       [31mFailure/Error: let!(:user2) { create(:user) }[0m
       [31m[0m
       [31mNoMethodError:[0m
-      [31m  undefined method `name=' for #<User:0x0000000003d84f20>[0m
+      [31m  undefined method `name=' for #<User:0x0000000006efbef0>[0m
       [31m[0m
       [31m[0m
       [31m[0m
@@ -624,7 +624,7 @@ Failures:
       [31mFailure/Error: let!(:user2) { create(:user) }[0m
       [31m[0m
       [31mNoMethodError:[0m
-      [31m  undefined method `name=' for #<User:0x0000000004054fc0>[0m
+      [31m  undefined method `name=' for #<User:0x0000000006f022a0>[0m
       [31m[0m
       [31m[0m
       [31m[0m
@@ -646,7 +646,7 @@ Failures:
       [31mFailure/Error: let!(:user2) { create(:user) }[0m
       [31m[0m
       [31mNoMethodError:[0m
-      [31m  undefined method `name=' for #<User:0x0000000004522728>[0m
+      [31m  undefined method `name=' for #<User:0x0000000006f12c90>[0m
       [31m[0m
       [31m[0m
       [31m[0m
@@ -668,7 +668,7 @@ Failures:
       [31mFailure/Error: let!(:user2) { create(:user) }[0m
       [31m[0m
       [31mNoMethodError:[0m
-      [31m  undefined method `name=' for #<User:0x0000000004d52b50>[0m
+      [31m  undefined method `name=' for #<User:0x0000000006f18f78>[0m
       [31m[0m
       [31m[0m
       [31m[0m
@@ -690,7 +690,7 @@ Failures:
       [31mFailure/Error: let!(:user2) { create(:user) }[0m
       [31m[0m
       [31mNoMethodError:[0m
-      [31m  undefined method `name=' for #<User:0x0000000004e59ff8>[0m
+      [31m  undefined method `name=' for #<User:0x0000000006f2b290>[0m
       [31m[0m
       [31m[0m
       [31m[0m
@@ -712,7 +712,7 @@ Failures:
       [31mFailure/Error: let!(:user2) { create(:user) }[0m
       [31m[0m
       [31mNoMethodError:[0m
-      [31m  undefined method `name=' for #<User:0x0000000004f6cbc0>[0m
+      [31m  undefined method `name=' for #<User:0x0000000006f31618>[0m
       [31m[0m
       [31m[0m
       [31m[0m
@@ -734,7 +734,7 @@ Failures:
       [31mFailure/Error: let!(:user2) { create(:user) }[0m
       [31m[0m
       [31mNoMethodError:[0m
-      [31m  undefined method `name=' for #<User:0x00000000050573c8>[0m
+      [31m  undefined method `name=' for #<User:0x0000000006f45fc8>[0m
       [31m[0m
       [31m[0m
       [31m[0m
@@ -756,7 +756,7 @@ Failures:
       [31mFailure/Error: let!(:user2) { create(:user) }[0m
       [31m[0m
       [31mNoMethodError:[0m
-      [31m  undefined method `name=' for #<User:0x0000000005141c48>[0m
+      [31m  undefined method `name=' for #<User:0x0000000006f4c288>[0m
       [31m[0m
       [31m[0m
       [31m[0m
@@ -778,7 +778,7 @@ Failures:
       [31mFailure/Error: let!(:user2) { create(:user) }[0m
       [31m[0m
       [31mNoMethodError:[0m
-      [31m  undefined method `name=' for #<User:0x000000000523e380>[0m
+      [31m  undefined method `name=' for #<User:0x0000000006f5e5a0>[0m
       [31m[0m
       [31m[0m
       [31m[0m
@@ -800,7 +800,7 @@ Failures:
       [31mFailure/Error: let!(:user2) { create(:user) }[0m
       [31m[0m
       [31mNoMethodError:[0m
-      [31m  undefined method `name=' for #<User:0x00000000053b9930>[0m
+      [31m  undefined method `name=' for #<User:0x0000000006f64928>[0m
       [31m[0m
       [31m[0m
       [31m[0m
@@ -822,7 +822,7 @@ Failures:
       [31mFailure/Error: let!(:user2) { create(:user) }[0m
       [31m[0m
       [31mNoMethodError:[0m
-      [31m  undefined method `name=' for #<User:0x0000000005492ca8>[0m
+      [31m  undefined method `name=' for #<User:0x0000000006f75f98>[0m
       [31m[0m
       [31m[0m
       [31m[0m
@@ -844,7 +844,7 @@ Failures:
       [31mFailure/Error: let!(:user2) { create(:user) }[0m
       [31m[0m
       [31mNoMethodError:[0m
-      [31m  undefined method `name=' for #<User:0x00000000054ecde8>[0m
+      [31m  undefined method `name=' for #<User:0x0000000006f7c2f8>[0m
       [31m[0m
       [31m[0m
       [31m[0m
@@ -866,7 +866,7 @@ Failures:
       [31mFailure/Error: let!(:user2) { create(:user) }[0m
       [31m[0m
       [31mNoMethodError:[0m
-      [31m  undefined method `name=' for #<User:0x00000000055c43b0>[0m
+      [31m  undefined method `name=' for #<User:0x0000000006f8d968>[0m
       [31m[0m
       [31m[0m
       [31m[0m
@@ -888,7 +888,7 @@ Failures:
       [31mFailure/Error: let!(:user2) { create(:user) }[0m
       [31m[0m
       [31mNoMethodError:[0m
-      [31m  undefined method `name=' for #<User:0x0000000005a422c0>[0m
+      [31m  undefined method `name=' for #<User:0x0000000006f9fc80>[0m
       [31m[0m
       [31m[0m
       [31m[0m
@@ -910,7 +910,7 @@ Failures:
       [31mFailure/Error: let(:user) { create(:user) }[0m
       [31m[0m
       [31mNoMethodError:[0m
-      [31m  undefined method `name=' for #<User:0x0000000005a6ac20>[0m
+      [31m  undefined method `name=' for #<User:0x0000000006faf5e0>[0m
       [31m[0m
       [31m[0m
       [31m[0m
@@ -933,7 +933,7 @@ Failures:
       [31mFailure/Error: let(:user) { create(:user) }[0m
       [31m[0m
       [31mNoMethodError:[0m
-      [31m  undefined method `name=' for #<User:0x0000000005a86150>[0m
+      [31m  undefined method `name=' for #<User:0x0000000006fb5620>[0m
       [31m[0m
       [31m[0m
       [31m[0m
@@ -956,7 +956,7 @@ Failures:
       [31mFailure/Error: let(:user) { create(:user) }[0m
       [31m[0m
       [31mNoMethodError:[0m
-      [31m  undefined method `name=' for #<User:0x0000000005a9cc48>[0m
+      [31m  undefined method `name=' for #<User:0x0000000006fc6a60>[0m
       [31m[0m
       [31m[0m
       [31m[0m
@@ -979,7 +979,7 @@ Failures:
       [31mFailure/Error: let(:user) { create(:user) }[0m
       [31m[0m
       [31mNoMethodError:[0m
-      [31m  undefined method `name=' for #<User:0x0000000005ab3bc8>[0m
+      [31m  undefined method `name=' for #<User:0x0000000006fd0c40>[0m
       [31m[0m
       [31m[0m
       [31m[0m
@@ -998,23 +998,15 @@ Failures:
       [36m# ./spec/system/bootstrap_spec.rb:4:in `block (2 levels) in <main>'[0m
       [36m# ./spec/system/bootstrap_spec.rb:5:in `block (2 levels) in <main>'[0m
 
-  39) ヘッダーのテスト ログインしていない場合 ヘッダーの表示を確認 タイトルが表示される
-      [31mFailure/Error: is_expected.to have_content 'Bookers'[0m
-      [31m  expected to find text "Bookers" in "Toggle navigation\nHome About Sign up login\nSign up login". (However, it was found 1 time including non-visible text.)[0m
-      [31m[0m
-      [31m[0m
-      [31m[0m
-      [36m# ./spec/system/header_spec.rb:11:in `block (4 levels) in <main>'[0m
-
-  40) ヘッダーのテスト ログインしていない場合 ヘッダーの表示を確認 Homeリンクが表示される
+  39) ヘッダーのテスト ログインしていない場合 ヘッダーの表示を確認 Homeリンクが表示される
       [31mFailure/Error: expect(home_link).to match(/home/i)[0m
       [31m[0m
-      [31m  expected "\n\n            " to match /home/i[0m
+      [31m  expected "\n            Bookers\n            " to match /home/i[0m
       [31m  Diff:[0m[0m
       [31m  [0m[34m@@ -1,3 +1,5 @@[0m
       [31m  [0m[31m-/home/i[0m
       [31m  [0m[32m+[0m
-      [31m  [0m[32m+[0m
+      [31m  [0m[32m+            Bookers[0m
       [31m  [0m[32m+            [0m
       [31m  [0m[0m
       [31m[0m
@@ -1022,49 +1014,52 @@ Failures:
       [31m[0m
       [36m# ./spec/system/header_spec.rb:15:in `block (4 levels) in <main>'[0m
 
-  41) ヘッダーのテスト ログインしていない場合 ヘッダーの表示を確認 Aboutリンクが表示される
+  40) ヘッダーのテスト ログインしていない場合 ヘッダーの表示を確認 Aboutリンクが表示される
       [31mFailure/Error: expect(about_link).to match(/about/i)[0m
       [31m[0m
-      [31m  expected "Home" to match /about/i[0m
+      [31m  expected "\n                  　Home\n" to match /about/i[0m
       [31m  Diff:[0m[0m
-      [31m  [0m[34m@@ -1 +1 @@[0m
+      [31m  [0m[34m@@ -1,2 +1,3 @@[0m
       [31m  [0m[31m-/about/i[0m
-      [31m  [0m[32m+"Home"[0m
+      [31m  [0m[32m+[0m
+      [31m  [0m[32m+                  　Home[0m
       [31m  [0m[0m
       [31m[0m
       [31m[0m
       [31m[0m
       [36m# ./spec/system/header_spec.rb:20:in `block (4 levels) in <main>'[0m
 
-  42) ヘッダーのテスト ログインしていない場合 ヘッダーの表示を確認 Sign upリンクが表示される
+  41) ヘッダーのテスト ログインしていない場合 ヘッダーの表示を確認 Sign upリンクが表示される
       [31mFailure/Error: expect(signup_link).to match(/sign up/i)[0m
       [31m[0m
-      [31m  expected "About" to match /sign up/i[0m
+      [31m  expected "\n                  　About\n" to match /sign up/i[0m
       [31m  Diff:[0m[0m
-      [31m  [0m[34m@@ -1 +1 @@[0m
+      [31m  [0m[34m@@ -1,2 +1,3 @@[0m
       [31m  [0m[31m-/sign up/i[0m
-      [31m  [0m[32m+"About"[0m
+      [31m  [0m[32m+[0m
+      [31m  [0m[32m+                  　About[0m
       [31m  [0m[0m
       [31m[0m
       [31m[0m
       [31m[0m
       [36m# ./spec/system/header_spec.rb:25:in `block (4 levels) in <main>'[0m
 
-  43) ヘッダーのテスト ログインしていない場合 ヘッダーの表示を確認 loginリンクが表示される
+  42) ヘッダーのテスト ログインしていない場合 ヘッダーの表示を確認 loginリンクが表示される
       [31mFailure/Error: expect(login_link).to match(/login/i)[0m
       [31m[0m
-      [31m  expected "Sign up" to match /login/i[0m
+      [31m  expected "\n                  　signup\n" to match /login/i[0m
       [31m  Diff:[0m[0m
-      [31m  [0m[34m@@ -1 +1 @@[0m
+      [31m  [0m[34m@@ -1,2 +1,3 @@[0m
       [31m  [0m[31m-/login/i[0m
-      [31m  [0m[32m+"Sign up"[0m
+      [31m  [0m[32m+[0m
+      [31m  [0m[32m+                  　signup[0m
       [31m  [0m[0m
       [31m[0m
       [31m[0m
       [31m[0m
       [36m# ./spec/system/header_spec.rb:30:in `block (4 levels) in <main>'[0m
 
-  44) ヘッダーのテスト ログインしていない場合 ヘッダーのリンクを確認 About画面に遷移する
+  43) ヘッダーのテスト ログインしていない場合 ヘッダーのリンクを確認 About画面に遷移する
       [31mFailure/Error: is_expected.to eq('/home/about')[0m
       [31m[0m
       [31m  expected: "/home/about"[0m
@@ -1076,7 +1071,7 @@ Failures:
       [31m[0m
       [36m# ./spec/system/header_spec.rb:47:in `block (4 levels) in <main>'[0m
 
-  45) ヘッダーのテスト ログインしていない場合 ヘッダーのリンクを確認 新規登録画面に遷移する
+  44) ヘッダーのテスト ログインしていない場合 ヘッダーのリンクを確認 新規登録画面に遷移する
       [31mFailure/Error: is_expected.to eq(new_user_registration_path)[0m
       [31m[0m
       [31m  expected: "/users/sign_up"[0m
@@ -1088,28 +1083,23 @@ Failures:
       [31m[0m
       [36m# ./spec/system/header_spec.rb:53:in `block (4 levels) in <main>'[0m
 
-  46) ヘッダーのテスト ログインしていない場合 ヘッダーのリンクを確認 ログイン画面に遷移する
-      [31mFailure/Error: click_link login_link[0m
+  45) ヘッダーのテスト ログインしていない場合 ヘッダーのリンクを確認 ログイン画面に遷移する
+      [31mFailure/Error: is_expected.to eq(new_user_session_path)[0m
       [31m[0m
-      [31mCapybara::Ambiguous:[0m
-      [31m  Ambiguous match, found 2 elements matching visible link "Sign up"[0m
+      [31m  expected: "/users/sign_in"[0m
+      [31m       got: "/users/sign_up"[0m
+      [31m[0m
+      [31m  (compared using ==)[0m
       [31m[0m
       [31m[0m
       [31m[0m
-      [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/capybara-3.33.0/lib/capybara/node/finders.rb:300:in `block in synced_resolve'[0m
-      [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/capybara-3.33.0/lib/capybara/node/base.rb:83:in `synchronize'[0m
-      [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/capybara-3.33.0/lib/capybara/node/finders.rb:291:in `synced_resolve'[0m
-      [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/capybara-3.33.0/lib/capybara/node/finders.rb:52:in `find'[0m
-      [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/capybara-3.33.0/lib/capybara/node/actions.rb:42:in `click_link'[0m
-      [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/capybara-3.33.0/lib/capybara/session.rb:759:in `block (2 levels) in <class:Session>'[0m
-      [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/capybara-3.33.0/lib/capybara/dsl.rb:58:in `block (2 levels) in <module:DSL>'[0m
-      [36m# ./spec/system/header_spec.rb:58:in `block (4 levels) in <main>'[0m
+      [36m# ./spec/system/header_spec.rb:59:in `block (4 levels) in <main>'[0m
 
-  47) ヘッダーのテスト ログインしている場合 ヘッダーの表示を確認 タイトルが表示される
+  46) ヘッダーのテスト ログインしている場合 ヘッダーの表示を確認 タイトルが表示される
       [31mFailure/Error: let(:user) { create(:user) }[0m
       [31m[0m
       [31mNoMethodError:[0m
-      [31m  undefined method `name=' for #<User:0x0000000008ab9a98>[0m
+      [31m  undefined method `name=' for #<User:0x00000000091705d0>[0m
       [31m[0m
       [31m[0m
       [31m[0m
@@ -1128,11 +1118,11 @@ Failures:
       [36m# ./spec/system/header_spec.rb:65:in `block (3 levels) in <main>'[0m
       [36m# ./spec/system/header_spec.rb:68:in `block (3 levels) in <main>'[0m
 
-  48) ヘッダーのテスト ログインしている場合 ヘッダーの表示を確認 Homeリンクが表示される
+  47) ヘッダーのテスト ログインしている場合 ヘッダーの表示を確認 Homeリンクが表示される
       [31mFailure/Error: let(:user) { create(:user) }[0m
       [31m[0m
       [31mNoMethodError:[0m
-      [31m  undefined method `name=' for #<User:0x0000000008ba9b60>[0m
+      [31m  undefined method `name=' for #<User:0x00000000091994a8>[0m
       [31m[0m
       [31m[0m
       [31m[0m
@@ -1151,11 +1141,11 @@ Failures:
       [36m# ./spec/system/header_spec.rb:65:in `block (3 levels) in <main>'[0m
       [36m# ./spec/system/header_spec.rb:68:in `block (3 levels) in <main>'[0m
 
-  49) ヘッダーのテスト ログインしている場合 ヘッダーの表示を確認 Usersリンクが表示される
+  48) ヘッダーのテスト ログインしている場合 ヘッダーの表示を確認 Usersリンクが表示される
       [31mFailure/Error: let(:user) { create(:user) }[0m
       [31m[0m
       [31mNoMethodError:[0m
-      [31m  undefined method `name=' for #<User:0x0000000008d157b0>[0m
+      [31m  undefined method `name=' for #<User:0x00000000091ce3d8>[0m
       [31m[0m
       [31m[0m
       [31m[0m
@@ -1174,11 +1164,11 @@ Failures:
       [36m# ./spec/system/header_spec.rb:65:in `block (3 levels) in <main>'[0m
       [36m# ./spec/system/header_spec.rb:68:in `block (3 levels) in <main>'[0m
 
-  50) ヘッダーのテスト ログインしている場合 ヘッダーの表示を確認 Booksリンクが表示される
+  49) ヘッダーのテスト ログインしている場合 ヘッダーの表示を確認 Booksリンクが表示される
       [31mFailure/Error: let(:user) { create(:user) }[0m
       [31m[0m
       [31mNoMethodError:[0m
-      [31m  undefined method `name=' for #<User:0x0000000008f26608>[0m
+      [31m  undefined method `name=' for #<User:0x0000000009203380>[0m
       [31m[0m
       [31m[0m
       [31m[0m
@@ -1197,11 +1187,11 @@ Failures:
       [36m# ./spec/system/header_spec.rb:65:in `block (3 levels) in <main>'[0m
       [36m# ./spec/system/header_spec.rb:68:in `block (3 levels) in <main>'[0m
 
-  51) ヘッダーのテスト ログインしている場合 ヘッダーの表示を確認 logoutリンクが表示される
+  50) ヘッダーのテスト ログインしている場合 ヘッダーの表示を確認 logoutリンクが表示される
       [31mFailure/Error: let(:user) { create(:user) }[0m
       [31m[0m
       [31mNoMethodError:[0m
-      [31m  undefined method `name=' for #<User:0x0000000009567be8>[0m
+      [31m  undefined method `name=' for #<User:0x0000000009230498>[0m
       [31m[0m
       [31m[0m
       [31m[0m
@@ -1220,11 +1210,11 @@ Failures:
       [36m# ./spec/system/header_spec.rb:65:in `block (3 levels) in <main>'[0m
       [36m# ./spec/system/header_spec.rb:68:in `block (3 levels) in <main>'[0m
 
-  52) ヘッダーのテスト ログインしている場合 ヘッダーのリンクを確認 Home画面に遷移する
+  51) ヘッダーのテスト ログインしている場合 ヘッダーのリンクを確認 Home画面に遷移する
       [31mFailure/Error: let(:user) { create(:user) }[0m
       [31m[0m
       [31mNoMethodError:[0m
-      [31m  undefined method `name=' for #<User:0x0000000007becad8>[0m
+      [31m  undefined method `name=' for #<User:0x0000000009264748>[0m
       [31m[0m
       [31m[0m
       [31m[0m
@@ -1243,11 +1233,11 @@ Failures:
       [36m# ./spec/system/header_spec.rb:65:in `block (3 levels) in <main>'[0m
       [36m# ./spec/system/header_spec.rb:68:in `block (3 levels) in <main>'[0m
 
-  53) ヘッダーのテスト ログインしている場合 ヘッダーのリンクを確認 Users画面に遷移する
+  52) ヘッダーのテスト ログインしている場合 ヘッダーのリンクを確認 Users画面に遷移する
       [31mFailure/Error: let(:user) { create(:user) }[0m
       [31m[0m
       [31mNoMethodError:[0m
-      [31m  undefined method `name=' for #<User:0x0000000008a09fa8>[0m
+      [31m  undefined method `name=' for #<User:0x00000000092996f0>[0m
       [31m[0m
       [31m[0m
       [31m[0m
@@ -1266,11 +1256,11 @@ Failures:
       [36m# ./spec/system/header_spec.rb:65:in `block (3 levels) in <main>'[0m
       [36m# ./spec/system/header_spec.rb:68:in `block (3 levels) in <main>'[0m
 
-  54) ヘッダーのテスト ログインしている場合 ヘッダーのリンクを確認 Books画面に遷移する
+  53) ヘッダーのテスト ログインしている場合 ヘッダーのリンクを確認 Books画面に遷移する
       [31mFailure/Error: let(:user) { create(:user) }[0m
       [31m[0m
       [31mNoMethodError:[0m
-      [31m  undefined method `name=' for #<User:0x0000000008b46c68>[0m
+      [31m  undefined method `name=' for #<User:0x00000000092ce648>[0m
       [31m[0m
       [31m[0m
       [31m[0m
@@ -1289,11 +1279,11 @@ Failures:
       [36m# ./spec/system/header_spec.rb:65:in `block (3 levels) in <main>'[0m
       [36m# ./spec/system/header_spec.rb:68:in `block (3 levels) in <main>'[0m
 
-  55) ヘッダーのテスト ログインしている場合 ヘッダーのリンクを確認 logoutする
+  54) ヘッダーのテスト ログインしている場合 ヘッダーのリンクを確認 logoutする
       [31mFailure/Error: let(:user) { create(:user) }[0m
       [31m[0m
       [31mNoMethodError:[0m
-      [31m  undefined method `name=' for #<User:0x0000000008c38338>[0m
+      [31m  undefined method `name=' for #<User:0x00000000093036e0>[0m
       [31m[0m
       [31m[0m
       [31m[0m
@@ -1312,11 +1302,11 @@ Failures:
       [36m# ./spec/system/header_spec.rb:65:in `block (3 levels) in <main>'[0m
       [36m# ./spec/system/header_spec.rb:68:in `block (3 levels) in <main>'[0m
 
-  56) ユーザー権限のテスト ログインしていない場合 投稿関連のURLにアクセス 一覧画面に遷移できない
+  55) ユーザー権限のテスト ログインしていない場合 投稿関連のURLにアクセス 一覧画面に遷移できない
       [31mFailure/Error: let!(:user) { create(:user) }[0m
       [31m[0m
       [31mNoMethodError:[0m
-      [31m  undefined method `name=' for #<User:0x0000000008c56ba8>[0m
+      [31m  undefined method `name=' for #<User:0x000000000930ef40>[0m
       [31m[0m
       [31m[0m
       [31m[0m
@@ -1334,11 +1324,11 @@ Failures:
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.1.0/lib/factory_bot/strategy_syntax_method_registrar.rb:28:in `block in define_singular_strategy_method'[0m
       [36m# ./spec/system/main_spec.rb:4:in `block (2 levels) in <main>'[0m
 
-  57) ユーザー権限のテスト ログインしていない場合 投稿関連のURLにアクセス 編集画面に遷移できない
+  56) ユーザー権限のテスト ログインしていない場合 投稿関連のURLにアクセス 編集画面に遷移できない
       [31mFailure/Error: let!(:user) { create(:user) }[0m
       [31m[0m
       [31mNoMethodError:[0m
-      [31m  undefined method `name=' for #<User:0x0000000008c610a8>[0m
+      [31m  undefined method `name=' for #<User:0x00000000093110b0>[0m
       [31m[0m
       [31m[0m
       [31m[0m
@@ -1356,11 +1346,11 @@ Failures:
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.1.0/lib/factory_bot/strategy_syntax_method_registrar.rb:28:in `block in define_singular_strategy_method'[0m
       [36m# ./spec/system/main_spec.rb:4:in `block (2 levels) in <main>'[0m
 
-  58) ユーザー権限のテスト ログインしていない場合 投稿関連のURLにアクセス 詳細画面に遷移できない
+  57) ユーザー権限のテスト ログインしていない場合 投稿関連のURLにアクセス 詳細画面に遷移できない
       [31mFailure/Error: let!(:user) { create(:user) }[0m
       [31m[0m
       [31mNoMethodError:[0m
-      [31m  undefined method `name=' for #<User:0x0000000008c70a58>[0m
+      [31m  undefined method `name=' for #<User:0x000000000931b358>[0m
       [31m[0m
       [31m[0m
       [31m[0m
@@ -1378,11 +1368,11 @@ Failures:
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.1.0/lib/factory_bot/strategy_syntax_method_registrar.rb:28:in `block in define_singular_strategy_method'[0m
       [36m# ./spec/system/main_spec.rb:4:in `block (2 levels) in <main>'[0m
 
-  59) ユーザー権限のテスト ログインしていない場合にユーザー関連のURLにアクセス ユーザー関連のURLにアクセス 一覧画面に遷移できない
+  58) ユーザー権限のテスト ログインしていない場合にユーザー関連のURLにアクセス ユーザー関連のURLにアクセス 一覧画面に遷移できない
       [31mFailure/Error: let!(:user) { create(:user) }[0m
       [31m[0m
       [31mNoMethodError:[0m
-      [31m  undefined method `name=' for #<User:0x0000000008c8b330>[0m
+      [31m  undefined method `name=' for #<User:0x0000000009327d10>[0m
       [31m[0m
       [31m[0m
       [31m[0m
@@ -1400,11 +1390,11 @@ Failures:
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.1.0/lib/factory_bot/strategy_syntax_method_registrar.rb:28:in `block in define_singular_strategy_method'[0m
       [36m# ./spec/system/main_spec.rb:4:in `block (2 levels) in <main>'[0m
 
-  60) ユーザー権限のテスト ログインしていない場合にユーザー関連のURLにアクセス ユーザー関連のURLにアクセス 編集画面に遷移できない
+  59) ユーザー権限のテスト ログインしていない場合にユーザー関連のURLにアクセス ユーザー関連のURLにアクセス 編集画面に遷移できない
       [31mFailure/Error: let!(:user) { create(:user) }[0m
       [31m[0m
       [31mNoMethodError:[0m
-      [31m  undefined method `name=' for #<User:0x0000000008cde1e8>[0m
+      [31m  undefined method `name=' for #<User:0x000000000932a060>[0m
       [31m[0m
       [31m[0m
       [31m[0m
@@ -1422,11 +1412,11 @@ Failures:
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.1.0/lib/factory_bot/strategy_syntax_method_registrar.rb:28:in `block in define_singular_strategy_method'[0m
       [36m# ./spec/system/main_spec.rb:4:in `block (2 levels) in <main>'[0m
 
-  61) ユーザー権限のテスト ログインしていない場合にユーザー関連のURLにアクセス ユーザー関連のURLにアクセス 詳細画面に遷移でない
+  60) ユーザー権限のテスト ログインしていない場合にユーザー関連のURLにアクセス ユーザー関連のURLにアクセス 詳細画面に遷移でない
       [31mFailure/Error: let!(:user) { create(:user) }[0m
       [31m[0m
       [31mNoMethodError:[0m
-      [31m  undefined method `name=' for #<User:0x0000000008d27938>[0m
+      [31m  undefined method `name=' for #<User:0x0000000009330348>[0m
       [31m[0m
       [31m[0m
       [31m[0m
@@ -1444,25 +1434,26 @@ Failures:
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.1.0/lib/factory_bot/strategy_syntax_method_registrar.rb:28:in `block in define_singular_strategy_method'[0m
       [36m# ./spec/system/main_spec.rb:4:in `block (2 levels) in <main>'[0m
 
-  62) トップページのテスト ボディ部分のテスト 表示の確認 Log inリンクが表示される
+  61) トップページのテスト ボディ部分のテスト 表示の確認 Log inリンクが表示される
       [31mFailure/Error: expect(login_link).to match(/log in/i)[0m
       [31m[0m
-      [31m  expected "login" to match /log in/i[0m
+      [31m  expected "\n                  　login\n" to match /log in/i[0m
       [31m  Diff:[0m[0m
-      [31m  [0m[34m@@ -1 +1 @@[0m
+      [31m  [0m[34m@@ -1,2 +1,3 @@[0m
       [31m  [0m[31m-/log in/i[0m
-      [31m  [0m[32m+"login"[0m
+      [31m  [0m[32m+[0m
+      [31m  [0m[32m+                  　login[0m
       [31m  [0m[0m
       [31m[0m
       [31m[0m
       [31m[0m
       [36m# ./spec/system/top_spec.rb:12:in `block (4 levels) in <main>'[0m
 
-  63) トップページのテスト ボディ部分のテスト ログインしている場合の挙動を確認 Log inリンクをクリックしたらユーザー詳細画面へ遷移する
+  62) トップページのテスト ボディ部分のテスト ログインしている場合の挙動を確認 Log inリンクをクリックしたらユーザー詳細画面へ遷移する
       [31mFailure/Error: let(:user) { create(:user) }[0m
       [31m[0m
       [31mNoMethodError:[0m
-      [31m  undefined method `name=' for #<User:0x00000000091fd408>[0m
+      [31m  undefined method `name=' for #<User:0x0000000008d041b8>[0m
       [31m[0m
       [31m[0m
       [31m[0m
@@ -1481,11 +1472,11 @@ Failures:
       [36m# ./spec/system/top_spec.rb:4:in `block (2 levels) in <main>'[0m
       [36m# ./spec/system/top_spec.rb:25:in `block (4 levels) in <main>'[0m
 
-  64) トップページのテスト ボディ部分のテスト ログインしている場合の挙動を確認 Sign Upリンクをクリックしたらユーザー詳細画面に遷移する
+  63) トップページのテスト ボディ部分のテスト ログインしている場合の挙動を確認 Sign Upリンクをクリックしたらユーザー詳細画面に遷移する
       [31mFailure/Error: let(:user) { create(:user) }[0m
       [31m[0m
       [31mNoMethodError:[0m
-      [31m  undefined method `name=' for #<User:0x00000000089e5298>[0m
+      [31m  undefined method `name=' for #<User:0x0000000008fff228>[0m
       [31m[0m
       [31m[0m
       [31m[0m
@@ -1504,15 +1495,15 @@ Failures:
       [36m# ./spec/system/top_spec.rb:4:in `block (2 levels) in <main>'[0m
       [36m# ./spec/system/top_spec.rb:25:in `block (4 levels) in <main>'[0m
 
-  65) トップページのテスト ボディ部分のテスト ログインしていない場合の挙動を確認 Log inリンクをクリックしたらログイン画面へ遷移する
+  64) トップページのテスト ボディ部分のテスト ログインしていない場合の挙動を確認 Log inリンクをクリックしたらログイン画面へ遷移する
       [31mFailure/Error: click_link login_link[0m
       [31m[0m
-      [31mCapybara::Ambiguous:[0m
-      [31m  Ambiguous match, found 2 elements matching visible link "login"[0m
+      [31mCapybara::ElementNotFound:[0m
+      [31m  Unable to find link "\n                  　login\n"[0m
       [31m[0m
       [31m[0m
       [31m[0m
-      [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/capybara-3.33.0/lib/capybara/node/finders.rb:300:in `block in synced_resolve'[0m
+      [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/capybara-3.33.0/lib/capybara/node/finders.rb:302:in `block in synced_resolve'[0m
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/capybara-3.33.0/lib/capybara/node/base.rb:83:in `synchronize'[0m
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/capybara-3.33.0/lib/capybara/node/finders.rb:291:in `synced_resolve'[0m
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/capybara-3.33.0/lib/capybara/node/finders.rb:52:in `find'[0m
@@ -1521,24 +1512,7 @@ Failures:
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/capybara-3.33.0/lib/capybara/dsl.rb:58:in `block (2 levels) in <module:DSL>'[0m
       [36m# ./spec/system/top_spec.rb:45:in `block (4 levels) in <main>'[0m
 
-  66) トップページのテスト ボディ部分のテスト ログインしていない場合の挙動を確認 Sign Upリンクをクリックしたら新規登録画面に遷移する
-      [31mFailure/Error: click_link signup_link[0m
-      [31m[0m
-      [31mCapybara::Ambiguous:[0m
-      [31m  Ambiguous match, found 2 elements matching visible link "Sign up"[0m
-      [31m[0m
-      [31m[0m
-      [31m[0m
-      [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/capybara-3.33.0/lib/capybara/node/finders.rb:300:in `block in synced_resolve'[0m
-      [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/capybara-3.33.0/lib/capybara/node/base.rb:83:in `synchronize'[0m
-      [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/capybara-3.33.0/lib/capybara/node/finders.rb:291:in `synced_resolve'[0m
-      [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/capybara-3.33.0/lib/capybara/node/finders.rb:52:in `find'[0m
-      [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/capybara-3.33.0/lib/capybara/node/actions.rb:42:in `click_link'[0m
-      [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/capybara-3.33.0/lib/capybara/session.rb:759:in `block (2 levels) in <class:Session>'[0m
-      [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/capybara-3.33.0/lib/capybara/dsl.rb:58:in `block (2 levels) in <module:DSL>'[0m
-      [36m# ./spec/system/top_spec.rb:50:in `block (4 levels) in <main>'[0m
-
-  67) ユーザー認証のテスト ユーザー新規登録 新規登録画面に遷移 新規登録に成功する
+  65) ユーザー認証のテスト ユーザー新規登録 新規登録画面に遷移 新規登録に成功する
       [31mFailure/Error: click_button 'Sign up'[0m
       [31m[0m
       [31mActiveModel::UnknownAttributeError:[0m
@@ -1590,7 +1564,7 @@ Failures:
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/capybara-3.33.0/lib/capybara/dsl.rb:58:in `block (2 levels) in <module:DSL>'[0m
       [36m# ./spec/system/users_spec.rb:14:in `block (4 levels) in <main>'[0m
 
-  68) ユーザー認証のテスト ユーザー新規登録 新規登録画面に遷移 新規登録に失敗する
+  66) ユーザー認証のテスト ユーザー新規登録 新規登録画面に遷移 新規登録に失敗する
       [31mFailure/Error: click_button 'Sign up'[0m
       [31m[0m
       [31mActiveModel::UnknownAttributeError:[0m
@@ -1642,11 +1616,11 @@ Failures:
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/capybara-3.33.0/lib/capybara/dsl.rb:58:in `block (2 levels) in <module:DSL>'[0m
       [36m# ./spec/system/users_spec.rb:23:in `block (4 levels) in <main>'[0m
 
-  69) ユーザー認証のテスト ユーザーログイン ログイン画面に遷移 ログインに成功する
+  67) ユーザー認証のテスト ユーザーログイン ログイン画面に遷移 ログインに成功する
       [31mFailure/Error: let(:user) { create(:user) }[0m
       [31m[0m
       [31mNoMethodError:[0m
-      [31m  undefined method `name=' for #<User:0x000000000990c258>[0m
+      [31m  undefined method `name=' for #<User:0x00000000092b3cd0>[0m
       [31m[0m
       [31m[0m
       [31m[0m
@@ -1666,7 +1640,7 @@ Failures:
       [36m# ./spec/system/users_spec.rb:35:in `block (4 levels) in <main>'[0m
       [36m# ./spec/system/users_spec.rb:37:in `block (4 levels) in <main>'[0m
 
-  70) ユーザー認証のテスト ユーザーログイン ログイン画面に遷移 ログインに失敗する
+  68) ユーザー認証のテスト ユーザーログイン ログイン画面に遷移 ログインに失敗する
       [31mFailure/Error: click_button 'Log in'[0m
       [31m[0m
       [31mActiveModel::UnknownAttributeError:[0m
@@ -1720,11 +1694,11 @@ Failures:
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/capybara-3.33.0/lib/capybara/dsl.rb:58:in `block (2 levels) in <module:DSL>'[0m
       [36m# ./spec/system/users_spec.rb:47:in `block (4 levels) in <main>'[0m
 
-  71) ユーザーのテスト サイドバーのテスト 表示の確認 User infoと表示される
+  69) ユーザーのテスト サイドバーのテスト 表示の確認 User infoと表示される
       [31mFailure/Error: let!(:test_user2) { create(:user) }[0m
       [31m[0m
       [31mNoMethodError:[0m
-      [31m  undefined method `name=' for #<User:0x0000000009a5fcb8>[0m
+      [31m  undefined method `name=' for #<User:0x00000000093344e8>[0m
       [31m[0m
       [31m[0m
       [31m[0m
@@ -1742,11 +1716,11 @@ Failures:
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.1.0/lib/factory_bot/strategy_syntax_method_registrar.rb:28:in `block in define_singular_strategy_method'[0m
       [36m# ./spec/system/users_spec.rb:57:in `block (2 levels) in <main>'[0m
 
-  72) ユーザーのテスト サイドバーのテスト 表示の確認 画像が表示される
+  70) ユーザーのテスト サイドバーのテスト 表示の確認 画像が表示される
       [31mFailure/Error: let!(:test_user2) { create(:user) }[0m
       [31m[0m
       [31mNoMethodError:[0m
-      [31m  undefined method `name=' for #<User:0x0000000009a65e10>[0m
+      [31m  undefined method `name=' for #<User:0x0000000009341210>[0m
       [31m[0m
       [31m[0m
       [31m[0m
@@ -1764,11 +1738,11 @@ Failures:
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.1.0/lib/factory_bot/strategy_syntax_method_registrar.rb:28:in `block in define_singular_strategy_method'[0m
       [36m# ./spec/system/users_spec.rb:57:in `block (2 levels) in <main>'[0m
 
-  73) ユーザーのテスト サイドバーのテスト 表示の確認 名前が表示される
+  71) ユーザーのテスト サイドバーのテスト 表示の確認 名前が表示される
       [31mFailure/Error: let!(:test_user2) { create(:user) }[0m
       [31m[0m
       [31mNoMethodError:[0m
-      [31m  undefined method `name=' for #<User:0x0000000009a6c170>[0m
+      [31m  undefined method `name=' for #<User:0x000000000934a900>[0m
       [31m[0m
       [31m[0m
       [31m[0m
@@ -1786,11 +1760,11 @@ Failures:
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.1.0/lib/factory_bot/strategy_syntax_method_registrar.rb:28:in `block in define_singular_strategy_method'[0m
       [36m# ./spec/system/users_spec.rb:57:in `block (2 levels) in <main>'[0m
 
-  74) ユーザーのテスト サイドバーのテスト 表示の確認 自己紹介が表示される
+  72) ユーザーのテスト サイドバーのテスト 表示の確認 自己紹介が表示される
       [31mFailure/Error: let!(:test_user2) { create(:user) }[0m
       [31m[0m
       [31mNoMethodError:[0m
-      [31m  undefined method `name=' for #<User:0x0000000009a82448>[0m
+      [31m  undefined method `name=' for #<User:0x000000000934cc28>[0m
       [31m[0m
       [31m[0m
       [31m[0m
@@ -1808,11 +1782,11 @@ Failures:
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.1.0/lib/factory_bot/strategy_syntax_method_registrar.rb:28:in `block in define_singular_strategy_method'[0m
       [36m# ./spec/system/users_spec.rb:57:in `block (2 levels) in <main>'[0m
 
-  75) ユーザーのテスト サイドバーのテスト 表示の確認 編集リンクが表示される
+  73) ユーザーのテスト サイドバーのテスト 表示の確認 編集リンクが表示される
       [31mFailure/Error: let!(:test_user2) { create(:user) }[0m
       [31m[0m
       [31mNoMethodError:[0m
-      [31m  undefined method `name=' for #<User:0x0000000009a84748>[0m
+      [31m  undefined method `name=' for #<User:0x000000000935e7e8>[0m
       [31m[0m
       [31m[0m
       [31m[0m
@@ -1830,11 +1804,11 @@ Failures:
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.1.0/lib/factory_bot/strategy_syntax_method_registrar.rb:28:in `block in define_singular_strategy_method'[0m
       [36m# ./spec/system/users_spec.rb:57:in `block (2 levels) in <main>'[0m
 
-  76) ユーザーのテスト 編集のテスト 自分の編集画面への遷移 遷移できる
+  74) ユーザーのテスト 編集のテスト 自分の編集画面への遷移 遷移できる
       [31mFailure/Error: let!(:test_user2) { create(:user) }[0m
       [31m[0m
       [31mNoMethodError:[0m
-      [31m  undefined method `name=' for #<User:0x0000000009a951b0>[0m
+      [31m  undefined method `name=' for #<User:0x00000000093aa288>[0m
       [31m[0m
       [31m[0m
       [31m[0m
@@ -1852,11 +1826,11 @@ Failures:
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.1.0/lib/factory_bot/strategy_syntax_method_registrar.rb:28:in `block in define_singular_strategy_method'[0m
       [36m# ./spec/system/users_spec.rb:57:in `block (2 levels) in <main>'[0m
 
-  77) ユーザーのテスト 編集のテスト 他人の編集画面への遷移 遷移できない
+  75) ユーザーのテスト 編集のテスト 他人の編集画面への遷移 遷移できない
       [31mFailure/Error: let!(:test_user2) { create(:user) }[0m
       [31m[0m
       [31mNoMethodError:[0m
-      [31m  undefined method `name=' for #<User:0x0000000009aa6780>[0m
+      [31m  undefined method `name=' for #<User:0x00000000093b4da0>[0m
       [31m[0m
       [31m[0m
       [31m[0m
@@ -1874,11 +1848,11 @@ Failures:
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.1.0/lib/factory_bot/strategy_syntax_method_registrar.rb:28:in `block in define_singular_strategy_method'[0m
       [36m# ./spec/system/users_spec.rb:57:in `block (2 levels) in <main>'[0m
 
-  78) ユーザーのテスト 編集のテスト 表示の確認 User infoと表示される
+  76) ユーザーのテスト 編集のテスト 表示の確認 User infoと表示される
       [31mFailure/Error: let!(:test_user2) { create(:user) }[0m
       [31m[0m
       [31mNoMethodError:[0m
-      [31m  undefined method `name=' for #<User:0x0000000009ab7cd8>[0m
+      [31m  undefined method `name=' for #<User:0x0000000009605500>[0m
       [31m[0m
       [31m[0m
       [31m[0m
@@ -1896,11 +1870,11 @@ Failures:
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.1.0/lib/factory_bot/strategy_syntax_method_registrar.rb:28:in `block in define_singular_strategy_method'[0m
       [36m# ./spec/system/users_spec.rb:57:in `block (2 levels) in <main>'[0m
 
-  79) ユーザーのテスト 編集のテスト 表示の確認 名前編集フォームに自分の名前が表示される
+  77) ユーザーのテスト 編集のテスト 表示の確認 名前編集フォームに自分の名前が表示される
       [31mFailure/Error: let!(:test_user2) { create(:user) }[0m
       [31m[0m
       [31mNoMethodError:[0m
-      [31m  undefined method `name=' for #<User:0x0000000009ac1f80>[0m
+      [31m  undefined method `name=' for #<User:0x000000000960f758>[0m
       [31m[0m
       [31m[0m
       [31m[0m
@@ -1918,11 +1892,11 @@ Failures:
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.1.0/lib/factory_bot/strategy_syntax_method_registrar.rb:28:in `block in define_singular_strategy_method'[0m
       [36m# ./spec/system/users_spec.rb:57:in `block (2 levels) in <main>'[0m
 
-  80) ユーザーのテスト 編集のテスト 表示の確認 画像編集フォームが表示される
+  78) ユーザーのテスト 編集のテスト 表示の確認 画像編集フォームが表示される
       [31mFailure/Error: let!(:test_user2) { create(:user) }[0m
       [31m[0m
       [31mNoMethodError:[0m
-      [31m  undefined method `name=' for #<User:0x0000000009ac8290>[0m
+      [31m  undefined method `name=' for #<User:0x0000000009611a80>[0m
       [31m[0m
       [31m[0m
       [31m[0m
@@ -1940,11 +1914,11 @@ Failures:
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.1.0/lib/factory_bot/strategy_syntax_method_registrar.rb:28:in `block in define_singular_strategy_method'[0m
       [36m# ./spec/system/users_spec.rb:57:in `block (2 levels) in <main>'[0m
 
-  81) ユーザーのテスト 編集のテスト 表示の確認 自己紹介編集フォームに自分の自己紹介が表示される
+  79) ユーザーのテスト 編集のテスト 表示の確認 自己紹介編集フォームに自分の自己紹介が表示される
       [31mFailure/Error: let!(:test_user2) { create(:user) }[0m
       [31m[0m
       [31mNoMethodError:[0m
-      [31m  undefined method `name=' for #<User:0x0000000009ada580>[0m
+      [31m  undefined method `name=' for #<User:0x000000000961bd28>[0m
       [31m[0m
       [31m[0m
       [31m[0m
@@ -1962,11 +1936,11 @@ Failures:
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.1.0/lib/factory_bot/strategy_syntax_method_registrar.rb:28:in `block in define_singular_strategy_method'[0m
       [36m# ./spec/system/users_spec.rb:57:in `block (2 levels) in <main>'[0m
 
-  82) ユーザーのテスト 編集のテスト 表示の確認 編集に成功する
+  80) ユーザーのテスト 編集のテスト 表示の確認 編集に成功する
       [31mFailure/Error: let!(:test_user2) { create(:user) }[0m
       [31m[0m
       [31mNoMethodError:[0m
-      [31m  undefined method `name=' for #<User:0x0000000009ae0840>[0m
+      [31m  undefined method `name=' for #<User:0x000000000961e028>[0m
       [31m[0m
       [31m[0m
       [31m[0m
@@ -1984,11 +1958,11 @@ Failures:
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.1.0/lib/factory_bot/strategy_syntax_method_registrar.rb:28:in `block in define_singular_strategy_method'[0m
       [36m# ./spec/system/users_spec.rb:57:in `block (2 levels) in <main>'[0m
 
-  83) ユーザーのテスト 編集のテスト 表示の確認 編集に失敗する
+  81) ユーザーのテスト 編集のテスト 表示の確認 編集に失敗する
       [31mFailure/Error: let!(:test_user2) { create(:user) }[0m
       [31m[0m
       [31mNoMethodError:[0m
-      [31m  undefined method `name=' for #<User:0x0000000009af2b08>[0m
+      [31m  undefined method `name=' for #<User:0x0000000009620328>[0m
       [31m[0m
       [31m[0m
       [31m[0m
@@ -2006,11 +1980,11 @@ Failures:
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.1.0/lib/factory_bot/strategy_syntax_method_registrar.rb:28:in `block in define_singular_strategy_method'[0m
       [36m# ./spec/system/users_spec.rb:57:in `block (2 levels) in <main>'[0m
 
-  84) ユーザーのテスト 一覧画面のテスト 表示の確認 Usersと表示される
+  82) ユーザーのテスト 一覧画面のテスト 表示の確認 Usersと表示される
       [31mFailure/Error: let!(:test_user2) { create(:user) }[0m
       [31m[0m
       [31mNoMethodError:[0m
-      [31m  undefined method `name=' for #<User:0x0000000009b03408>[0m
+      [31m  undefined method `name=' for #<User:0x0000000009628ca8>[0m
       [31m[0m
       [31m[0m
       [31m[0m
@@ -2028,11 +2002,11 @@ Failures:
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.1.0/lib/factory_bot/strategy_syntax_method_registrar.rb:28:in `block in define_singular_strategy_method'[0m
       [36m# ./spec/system/users_spec.rb:57:in `block (2 levels) in <main>'[0m
 
-  85) ユーザーのテスト 一覧画面のテスト 表示の確認 自分と他の人の画像が表示される
+  83) ユーザーのテスト 一覧画面のテスト 表示の確認 自分と他の人の画像が表示される
       [31mFailure/Error: let!(:test_user2) { create(:user) }[0m
       [31m[0m
       [31mNoMethodError:[0m
-      [31m  undefined method `name=' for #<User:0x0000000009b096c8>[0m
+      [31m  undefined method `name=' for #<User:0x000000000963ae58>[0m
       [31m[0m
       [31m[0m
       [31m[0m
@@ -2050,11 +2024,11 @@ Failures:
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.1.0/lib/factory_bot/strategy_syntax_method_registrar.rb:28:in `block in define_singular_strategy_method'[0m
       [36m# ./spec/system/users_spec.rb:57:in `block (2 levels) in <main>'[0m
 
-  86) ユーザーのテスト 一覧画面のテスト 表示の確認 自分と他の人の名前が表示される
+  84) ユーザーのテスト 一覧画面のテスト 表示の確認 自分と他の人の名前が表示される
       [31mFailure/Error: let!(:test_user2) { create(:user) }[0m
       [31m[0m
       [31mNoMethodError:[0m
-      [31m  undefined method `name=' for #<User:0x0000000009b1b990>[0m
+      [31m  undefined method `name=' for #<User:0x0000000009645150>[0m
       [31m[0m
       [31m[0m
       [31m[0m
@@ -2072,11 +2046,11 @@ Failures:
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.1.0/lib/factory_bot/strategy_syntax_method_registrar.rb:28:in `block in define_singular_strategy_method'[0m
       [36m# ./spec/system/users_spec.rb:57:in `block (2 levels) in <main>'[0m
 
-  87) ユーザーのテスト 一覧画面のテスト 表示の確認 showリンクが表示される
+  85) ユーザーのテスト 一覧画面のテスト 表示の確認 showリンクが表示される
       [31mFailure/Error: let!(:test_user2) { create(:user) }[0m
       [31m[0m
       [31mNoMethodError:[0m
-      [31m  undefined method `name=' for #<User:0x0000000009b21ca0>[0m
+      [31m  undefined method `name=' for #<User:0x0000000009657468>[0m
       [31m[0m
       [31m[0m
       [31m[0m
@@ -2094,11 +2068,11 @@ Failures:
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.1.0/lib/factory_bot/strategy_syntax_method_registrar.rb:28:in `block in define_singular_strategy_method'[0m
       [36m# ./spec/system/users_spec.rb:57:in `block (2 levels) in <main>'[0m
 
-  88) ユーザーのテスト 詳細画面のテスト 表示の確認 Booksと表示される
+  86) ユーザーのテスト 詳細画面のテスト 表示の確認 Booksと表示される
       [31mFailure/Error: let!(:test_user2) { create(:user) }[0m
       [31m[0m
       [31mNoMethodError:[0m
-      [31m  undefined method `name=' for #<User:0x0000000009b325f0>[0m
+      [31m  undefined method `name=' for #<User:0x0000000009663e20>[0m
       [31m[0m
       [31m[0m
       [31m[0m
@@ -2116,11 +2090,11 @@ Failures:
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.1.0/lib/factory_bot/strategy_syntax_method_registrar.rb:28:in `block in define_singular_strategy_method'[0m
       [36m# ./spec/system/users_spec.rb:57:in `block (2 levels) in <main>'[0m
 
-  89) ユーザーのテスト 詳細画面のテスト 表示の確認 投稿一覧のユーザーの画像のリンク先が正しい
+  87) ユーザーのテスト 詳細画面のテスト 表示の確認 投稿一覧のユーザーの画像のリンク先が正しい
       [31mFailure/Error: let!(:test_user2) { create(:user) }[0m
       [31m[0m
       [31mNoMethodError:[0m
-      [31m  undefined method `name=' for #<User:0x0000000009b387e8>[0m
+      [31m  undefined method `name=' for #<User:0x000000000966e078>[0m
       [31m[0m
       [31m[0m
       [31m[0m
@@ -2138,11 +2112,11 @@ Failures:
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.1.0/lib/factory_bot/strategy_syntax_method_registrar.rb:28:in `block in define_singular_strategy_method'[0m
       [36m# ./spec/system/users_spec.rb:57:in `block (2 levels) in <main>'[0m
 
-  90) ユーザーのテスト 詳細画面のテスト 表示の確認 投稿一覧のtitleのリンク先が正しい
+  88) ユーザーのテスト 詳細画面のテスト 表示の確認 投稿一覧のtitleのリンク先が正しい
       [31mFailure/Error: let!(:test_user2) { create(:user) }[0m
       [31m[0m
       [31mNoMethodError:[0m
-      [31m  undefined method `name=' for #<User:0x0000000009b4aab0>[0m
+      [31m  undefined method `name=' for #<User:0x0000000009674360>[0m
       [31m[0m
       [31m[0m
       [31m[0m
@@ -2160,11 +2134,11 @@ Failures:
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.1.0/lib/factory_bot/strategy_syntax_method_registrar.rb:28:in `block in define_singular_strategy_method'[0m
       [36m# ./spec/system/users_spec.rb:57:in `block (2 levels) in <main>'[0m
 
-  91) ユーザーのテスト 詳細画面のテスト 表示の確認 投稿一覧にopinionが表示される
+  89) ユーザーのテスト 詳細画面のテスト 表示の確認 投稿一覧にopinionが表示される
       [31mFailure/Error: let!(:test_user2) { create(:user) }[0m
       [31m[0m
       [31mNoMethodError:[0m
-      [31m  undefined method `name=' for #<User:0x0000000009b54df8>[0m
+      [31m  undefined method `name=' for #<User:0x0000000009686628>[0m
       [31m[0m
       [31m[0m
       [31m[0m
@@ -2182,8 +2156,8 @@ Failures:
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.1.0/lib/factory_bot/strategy_syntax_method_registrar.rb:28:in `block in define_singular_strategy_method'[0m
       [36m# ./spec/system/users_spec.rb:57:in `block (2 levels) in <main>'[0m
 
-Finished in 0.77296 seconds (files took 1.26 seconds to load)
-[31m95 examples, 91 failures[0m
+Finished in 0.7724 seconds (files took 1.33 seconds to load)
+[31m95 examples, 89 failures[0m
 
 Failed examples:
 
@@ -2225,7 +2199,6 @@ Failed examples:
 [31mrspec ./spec/system/bootstrap_spec.rb:19[0m [36m# bootstrapのテスト グリッドシステムのテスト ユーザー関連画面 詳細画面[0m
 [31mrspec ./spec/system/bootstrap_spec.rb:26[0m [36m# bootstrapのテスト グリッドシステムのテスト 投稿関連画面 一覧画面[0m
 [31mrspec ./spec/system/bootstrap_spec.rb:31[0m [36m# bootstrapのテスト グリッドシステムのテスト 投稿関連画面 詳細画面[0m
-[31mrspec ./spec/system/header_spec.rb:10[0m [36m# ヘッダーのテスト ログインしていない場合 ヘッダーの表示を確認 タイトルが表示される[0m
 [31mrspec ./spec/system/header_spec.rb:13[0m [36m# ヘッダーのテスト ログインしていない場合 ヘッダーの表示を確認 Homeリンクが表示される[0m
 [31mrspec ./spec/system/header_spec.rb:18[0m [36m# ヘッダーのテスト ログインしていない場合 ヘッダーの表示を確認 Aboutリンクが表示される[0m
 [31mrspec ./spec/system/header_spec.rb:23[0m [36m# ヘッダーのテスト ログインしていない場合 ヘッダーの表示を確認 Sign upリンクが表示される[0m
@@ -2252,7 +2225,6 @@ Failed examples:
 [31mrspec ./spec/system/top_spec.rb:30[0m [36m# トップページのテスト ボディ部分のテスト ログインしている場合の挙動を確認 Log inリンクをクリックしたらユーザー詳細画面へ遷移する[0m
 [31mrspec ./spec/system/top_spec.rb:35[0m [36m# トップページのテスト ボディ部分のテスト ログインしている場合の挙動を確認 Sign Upリンクをクリックしたらユーザー詳細画面に遷移する[0m
 [31mrspec ./spec/system/top_spec.rb:43[0m [36m# トップページのテスト ボディ部分のテスト ログインしていない場合の挙動を確認 Log inリンクをクリックしたらログイン画面へ遷移する[0m
-[31mrspec ./spec/system/top_spec.rb:48[0m [36m# トップページのテスト ボディ部分のテスト ログインしていない場合の挙動を確認 Sign Upリンクをクリックしたら新規登録画面に遷移する[0m
 [31mrspec ./spec/system/users_spec.rb:9[0m [36m# ユーザー認証のテスト ユーザー新規登録 新規登録画面に遷移 新規登録に成功する[0m
 [31mrspec ./spec/system/users_spec.rb:18[0m [36m# ユーザー認証のテスト ユーザー新規登録 新規登録画面に遷移 新規登録に失敗する[0m
 [31mrspec ./spec/system/users_spec.rb:36[0m [36m# ユーザー認証のテスト ユーザーログイン ログイン画面に遷移 ログインに成功する[0m

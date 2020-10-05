@@ -18,11 +18,9 @@
       <nav class="navbar navbar-inverse" role="navigation" id="slide-nav">
         <div class="container relative">
           <div class="navbar-header">
-            <a class="navbar-logo" href="/">
-            Bookers
-            </a>
-
-
+            <h3 class="navbar-nav"><font color="#ffffff">
+            Bookers</font>
+            </h3>
           </div>
           <div id="slidemenu">
             <ul class="nav navbar-nav navbar-right" data-hover="dropdown" data-animations="zoomIn fadeIn fadeInUp fadeIn">
@@ -39,7 +37,7 @@
                 </li>
                 <li class="">
                   <%= link_to books_path do %>
-                  <span class="glyphicon glyphicon-book" aria-hidden="true"></span> Books
+                  <span class="glyphicon glyphicon-book" aria-hidden="true"></span>　Books
                   <% end %>
                 </li>
                 <li class="">
@@ -61,7 +59,7 @@
                 </li>
                 <li class="">
                   <%= link_to new_user_registration_path do %>
-                  <span class="glyphicon glyphicon-edit" aria-hidden="true"></span>　sign　up
+                  <span class="glyphicon glyphicon-edit" aria-hidden="true"></span>　sign up
                   <% end %>
                 </li>
                 <li class="">
@@ -75,11 +73,12 @@
         </div>
       </nav>
     </div>
-
+  <div class="container">
   <body>
     <% flash.each do |key, value| %>
     <%= content_tag(:div, value, class: "#{key}") %>
   <% end %>
     <%= yield %>
   </body>
+  </div>
 </html>
